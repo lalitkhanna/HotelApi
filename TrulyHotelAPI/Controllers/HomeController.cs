@@ -10,6 +10,7 @@ namespace TrulyHotelAPI.Controllers
     {
         public ActionResult Index()
         {
+            //This is test
             ViewBag.Title = "Home Page";
 
             return View();
