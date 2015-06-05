@@ -14,7 +14,7 @@ namespace TrulyHotelAPI.Controllers
         public IEnumerable<DestinationInfo> GetHotelDestinations(string searchterm, int local = 10)
         {
             Dictionary<string, string> lang = new Dictionary<string, string>();
-
+            //Return from cache
             
             return MyCache.GetHotelDestinations(searchterm,local);
         }
